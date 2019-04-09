@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "fecha": "Octubre del 2011",
+    "titulo": "Comunicando un juguete con Arduino",
+    "imagen1": "https://bitbucket.org/johnnysepulveda/mi-sitio-web/src/master/public/img/publicaciones/publicacion1/imagen1.jpg",
+    "imagen2": "/img/publicaciones/publicacion1/imagen2",
+    "descripcion1": "Este experimento usa Puredata y la librería pduino para 'tocar' tres notas del juguete e interpretarlas a diferentes velocidades o bpm. Usamos un transistor para controlar las teclas por medio de pulsos digitales que son generados por el software y estos posteriormente con el Arduino se convierten en pulsos eléctricos que entran directamente en las teclas y hacen sonar el juguetico.",
+    "descripcion2": "Puredata extended actualmente es un software muerto y el proyecto a migrado a otro proyecto llamado pd-iork",
+    "link1": "https://puredata.info/downloads/Pd-L2Ork",
+    "video": "MTgn4PLPB0Y",
+    "tags": "puredata, arduino, interface visual, sonidos, circuitos, software libre, comunlab, cali"
+  },
+  {
+    "id": 1,
+    "fecha": "Abríl del 2012",
+    "titulo": "Mapping Reactivo al Sonido",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "Este skecth de processing utiliza la librería syphon que es una herramienta que permite compartir pantallas en diferentes programas. Viene a ser lo que en Audio se conoce como reWire. En madmapper cuando llegan el streaming de processing, procedemos a deformar la imagen en cuadros pegados a la pared.",
+    "descripcion2": "Este mapping fue realizado usando processing en su versión 2.0",
+    "link1": "https://processing.org/",
+    "video": "pN4VuFjGNlQ",
+    "tags": "syphon, madmapper, processing, reactive sound, opensource"
+  },
+  {
+    "id": 2,
+    "fecha": "Junio del 2012",
+    "titulo": "Rares sounds con Arduino y Puredata",
+    "imagen1": "/img/publicaciones/publicacion2/imagen1",
+    "imagen2": "",
+    "descripcion1": "Este experimento usa la librería pduino de Puredata y un Arduino para leer la entrada analógica del micro controlador mediante una fotocelda al aplicarle luz directa. Las señales son discretizadas en señales digitales, ahora; inmediatamente cuando se pasa un valor que excede un umbral en la programación se toman estos valores y se convierten en parametros para un filtro y un oscilador en el programa. ",
+    "descripcion2": "Paralelamente se usa la librería GEM de pd para dejar ver una imagen a medida que se aplica luz sobre el circuito. Puredata extended actualmente es un software muerto y el proyecto a migrado a otro proyecto llamado pd-iork.",
+    "link1": "https://puredata.info/downloads/Pd-L2Ork",
+    "video": "FySWsrPI3pI",
+    "tags": "puredata, arduino, interface visual, sonidos, circuitos, software libre, comunlab, cali"
+  },
+  {
+    "id": 3,
+    "fecha": "Marzo del 2013",
+    "titulo": "Mapping físico realizado con processing y wii mote",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "Utilizamos la librería de Ricard Marxer de física 2d en el entorno de programación Processing 2.0 para simular cuerpos que caen sobre superficies reales.Además de esto, estos cuerpos que se generan son reactivos al sonido, por eso caen cuando el micrófono del computador pasa un umbral de sonido.",
+    "descripcion2": "",
+    "link1": "https://processing.org/",
+    "video": "-_uvM13yIbk",
+    "tags": "wii mote, processing, reactive sound, mapping, videojuegos"
+  },
+  {
+    "id": 4,
+    "fecha": "Agosto del 2013",
+    "titulo": "Mapping sincronizado con música 8bit",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "Laboratorio donde pude sincronizar con quartz composer y ableton live vía midi el audio grabado en el DAW mas los clips construidos en quartz composer. ",
+    "descripcion2": "El extinto ya quartz composer era un software para mac que permitía la elaboración de contenido visual y su procesamiento por medio de una interfaz gráfica por nodos, muy parecido a pure data.",
+    "link1": "https://en.wikipedia.org/wiki/Quartz_Composer",
+    "video": "AAOKl1I2LoU",
+    "tags": "quartz composer, ableton live, musica, 8bit, noise, visuales, mapping"
+  },
+  {
+    "id": 5,
+    "fecha": "Marzo del 2014",
+    "titulo": "Controlador MIDI con frutas, Arduino y Puredata Extended",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "Conectando cascaras, tomates y otras cosas a un Arduino, podemos medir la impedancia y la diferencia que existe cuando tocamos algo o cuando eso que tocamos esta en reposo. Ahora, sabiendo los valores y su diferencia, podemos usar estos valores para crear una interfaz midi que nos sirva como control para algún software.",
+    "descripcion2": "En este caso pd se encarga de recibir los datos y enviarlos en paquetes midi a Ableton live, que recibe estos paquetes y hace su trabajo.",
+    "link1": "https://puredata.info/downloads/Pd-L2Ork",
+    "video": "xf2WwuaTE4M",
+    "tags": "midi, frutas, puredata, arduino, circuitos, ableton live"
+  },
+  {
+    "id": 6,
+    "fecha": "Agosto del 2014",
+    "titulo": "Instrumento sonoro gestual con processing y puredata",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "En este experimento tenemos una kinect de la xbox 360 que nos sirve como interfaz para controlar un patch de pd. Estamos usando una posición especifica al iniciar para que la kinect sea capaz de mapear mi cuerpo y saber constantemente en que posición se encuentra mi mano derecha y mi mano izquierda.",
+    "descripcion2": "Una vez que processing sabe donde se encuentran mis manos, utiliza estas coordenadas para generar frecuencias con la mano derecha, y en la mano izquierda para filtrarlas.",
+    "link1": "https://puredata.info/downloads/Pd-L2Ork",
+    "video": "vdg5xvgaPeY",
+    "tags": "processing, puredata, kinect, open source, computer vision"
+  },
+  {
+    "id": 7,
+    "fecha": "Febrero del 2015",
+    "titulo": "Instrumento automatizado con Arduino y usando el firmware Hiduino",
+    "imagen1": "",
+    "imagen2": "",
+    "descripcion1": "En la construcción de este instrumento se uso Arduino y el firmware hiduino, que permite el flasheo y su posterior cambio de firmware del chip que controla la entrada USB. Permitiendo que el Arduino quede reconociéndose en cualquier computadora como un dispositivo Midi nativo.",
+    "descripcion2": "De la finalización de este instrumento se realizo una grabación acompañada de música 8bit realizada con un gameboy.",
+    "link1": "https://kaziuz.bandcamp.com/",
+    "video": "jVY1lqF5Q7Q",
+    "tags": "hiduino, arduino, ableton live, circuitos, native midi instruments"
+  }
+]

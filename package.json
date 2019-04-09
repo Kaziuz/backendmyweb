@@ -1,0 +1,20 @@
+{
+  "name": "misitioweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
