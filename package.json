@@ -1,5 +1,5 @@
 {
-  "name": "misitioweb",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "file-system": "^2.2.2"
+    "file-system": "^2.2.2",
+    "install": "^0.12.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
